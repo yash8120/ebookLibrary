@@ -1,0 +1,14 @@
+/storage/*
+!/storage/.keep
+/tmp/*
+!/tmp/.keep
+/log/*
+!/log/.keep
+.env
+.env.*
+!/.env.example
+*.sqlite3
+*.sqlite3-*
+.bundle/
+vendor/bundle/
+.byebug_history
