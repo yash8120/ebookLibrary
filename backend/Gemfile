@@ -1,0 +1,27 @@
+source "https://rubygems.org"
+
+ruby ">= 3.2"
+
+gem "rails", "~> 7.1.0"
+gem "puma", ">= 5.0"
+gem "sqlite3", "~> 1.4"
+gem "rack-cors"
+gem "image_processing", "~> 1.2"
+gem "bootsnap", require: false
+gem "tzinfo-data", platforms: %i[windows jruby]
+
+group :development, :test do
+  gem "rspec-rails", "~> 6.1"
+  gem "factory_bot_rails"
+  gem "faker"
+  gem "rubocop", require: false
+end
+
+group :development do
+  gem "listen"
+end
+
+group :test do
+  gem "shoulda-matchers", "~> 6.0"
+  gem "rack-test"
+end
