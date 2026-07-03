@@ -1,3 +1,4 @@
 backend/.bundle-home/cache/
 backend/Gemfile.lock
 backend/db/migrate/
+frontend/pubspec.lock
